@@ -1,4 +1,4 @@
-let userIsAdmin = false;
+let userIsAdmin = true;
 let userIsCreator =false;
 let userIsCommentauthor = false;
 const userCenDelete = userIsAdmin || userIsCommentauthor || userIsCreator;
