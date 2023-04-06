@@ -1,10 +1,10 @@
 
-const  userpaid = 2090 ;
-const conwesTer = 2090 ;
-const erowdent = 3023 ;
-const bertconsol = 3023 ;
+const userPinCode = 2090 ;
+const currentPinCode = 2090 ;
+const newPinCode = 3023 ;
+const retypeNewPinCode = 3023 ;
 
-const pinegange = userpaid == conwesTer && erowdent == bertconsol;
+const pinChangeComplete = userPinCode == currentPinCode && newPinCode == retypeNewPinCode;
 
 
-console.log (pinegange);
+console.log (pinChangeComplete);
